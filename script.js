@@ -64,7 +64,7 @@ const slideshowDivs = () => {
         const div = document.createElement('div');
         const img = document.createElement('img');
 
-        img.src = `images/slideshow/HeaderBg-${index}.jpg`;
+        img.src = `./images/slideshow/HeaderBg-${index}.jpg`;
 
         img.classList.add('img-style');
 
